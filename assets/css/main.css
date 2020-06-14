@@ -1943,7 +1943,7 @@
 			}
 
 		.flex.flex-4 .box {
-			width: 21%;
+			width: 31%;
 		}
 
 		@media screen and (max-width: 980px) {
@@ -2229,6 +2229,8 @@
 
 				.box.person .image img {
 					max-width: 80%;
+					margin-left: auto;
+					margin-right: auto;
 				}
 
 /* Icon */
@@ -2276,12 +2278,6 @@
 
 		.image.round img {
 			border-radius: 100%;
-		}
-
-		.image.headshot img {
-			width: 100px;
-			height: 100px;
-			overflow: hidden;
 		}
 
 		.image.left {
@@ -2958,7 +2954,7 @@
 
 	#banner {
 		padding: 12em 0 10em 0;
-		background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../../images/BirminghamBournvilleShops_cropped.jpg');
+		background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../../images/bournville-green.jpg');
 		background-size: cover;
 		background-position: top;
 		background-attachment: fixed;
@@ -3100,5 +3096,13 @@
 	.subjects-list {
 		text-align: left;
 		font-size:1.3em;
+	}
+
+	.what-we-offer-list {
+		font-size: 1.2em;
+	}
+
+	.bio {
+		text-align: left;
 	}
 
