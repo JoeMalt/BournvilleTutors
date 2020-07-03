@@ -1798,7 +1798,7 @@
 			}
 
 			section.wrapper header p, article.wrapper header p {
-				font-size: 1em;
+				font-size: 1.2em;
 			}
 
 		section.wrapper article header, article.wrapper article header {
@@ -2750,7 +2750,7 @@
 		left: 0;
 		line-height: 3.25em;
 		position: absolute;
-		text-align: right;
+		text-align: left;
 		top: 4em;
 		width: 100%;
 		z-index: 10001;
@@ -2773,6 +2773,7 @@
 			position: absolute;
 			top: 0;
 			font-size: 1em;
+			line-height: 200%;
 		}
 
 		#header a {
@@ -2781,10 +2782,10 @@
 			-ms-transition: color 0.2s ease-in-out;
 			transition: color 0.2s ease-in-out;
 			display: inline-block;
-			padding: 0 0.75em;
+			/* padding: 0 0.75em; */
 			color: inherit;
 			text-decoration: none;
-			font-size: .8em;
+			/* font-size: .8em; */
 		}
 
 			#header a:hover {
