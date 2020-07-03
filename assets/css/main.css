@@ -1652,7 +1652,7 @@
 
 	p {
 		font-size:1.2em;
-		margin: 0 0 2em 0;
+		margin: 0 0 1em 0;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -1803,6 +1803,7 @@
 
 		section.wrapper article header, article.wrapper article header {
 			margin: 0;
+			text-align: center;
 		}
 
 		section.wrapper.style1, article.wrapper.style1 {
@@ -1866,11 +1867,11 @@
 		@media screen and (max-width: 480px) {
 
 			section.wrapper, article.wrapper {
-				text-align: center;
+				/* text-align: center; */
 			}
 
 				section.wrapper article, article.wrapper article {
-					text-align: center;
+					/* text-align: center; */
 				}
 
 		}
@@ -1924,7 +1925,7 @@
 
 		.flex.flex-3 article {
 			position: relative;
-			width: 28%;
+			width: 29%;
 		}
 
 			.flex.flex-3 article:before {
